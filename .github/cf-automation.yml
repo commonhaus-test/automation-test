@@ -6,10 +6,22 @@ voting:
     page: https://www.commonhaus.org/votes/{{repoName}}/{{number}}.html
 
 notice:
+  discussion_comment:
+    rules:
+      - # Send notification for new comments for items labeled with notice
+        action: [created]
+        label: [notice]
+        then: [email_activity]
+  issue_comment:
+    rules:
+      - # Send notification for new comments for items labeled with notice
+        action: [created]
+        label: [notice]
+        then: [email_activity]
   discussion:
     rules:
       - # If a discussion is created in the Announcements or Reviews 
-        # category, apply the notice label
+        # category and it already has the notice label, send an email
         category: 
           - Announcements
           - Consensus Building
@@ -17,28 +29,15 @@ notice:
         label: [notice]
         then: [email_activity]
       - # If a discussion is created in the Announcements or Reviews 
-        # category, apply the notice label
+        # category and it does not have the notice label, add it.
         category: 
           - Announcements
           - Consensus Building
         action: [created, category_changed]
         label: ["!notice"]
         then: [label_notice]
-      - # If a discussion that already has a notice label is updated,
-        # send email to email_activity
+      - # If a discussion has the notice label applied, send an email
         action: [labeled]
-        label: [notice]
-        then: [email_activity]
-  discussion_comment:
-    rules:
-      - # Send email for comments
-        action: [created]
-        label: [notice]
-        then: [email_activity]
-  issue_comment:
-    rules:
-      - # Send email for comments
-        action: [created]
         label: [notice]
         then: [email_activity]
   pull_request:
@@ -53,8 +52,7 @@ notice:
           - bylaws/*
           - policies/*
         then: [label_notice]
-      - # If a pull request is labeled with notice,
-        # send an email to email_activity
+      - # If a pull request is labeled with notice, send an email
         action: [labeled]
         label: [notice]
         then: [email_activity]
