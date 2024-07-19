@@ -22,7 +22,7 @@ notice:
           - Announcements
           - Consensus Building
         action: [created, category_changed]
-        label: [!notice]
+        label: ["!notice"]
         then: [label_notice]
       - # If a discussion that already has a notice label is updated,
         # send email to email_activity
