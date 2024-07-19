@@ -13,7 +13,16 @@ notice:
         category: 
           - Announcements
           - Consensus Building
+        action: [created]
+        label: [notice]
+        then: [email_activity]
+      - # If a discussion is created in the Announcements or Reviews 
+        # category, apply the notice label
+        category: 
+          - Announcements
+          - Consensus Building
         action: [created, category_changed]
+        label: [!notice]
         then: [label_notice]
       - # If a discussion that already has a notice label is updated,
         # send email to email_activity
@@ -23,9 +32,6 @@ notice:
   discussion_comment:
     rules:
       - # Send email for comments
-        category: 
-          - Announcements
-          - Consensus Building
         action: [created]
         label: [notice]
         then: [email_activity]
