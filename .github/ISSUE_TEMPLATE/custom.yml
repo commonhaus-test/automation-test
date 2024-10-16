@@ -1,0 +1,64 @@
+name: "Proposal"
+description: "Council proposal for vote counting + records"
+labels: ["notice"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > [!NOTE]
+        > Consensus Building items will be forwarded to cf-council mailing list.
+        >
+        > - Title: Keep the title short and sweet. If there is a time constraint, include it.
+        > - Add the `vote/open` label when you are ready to begin tallying reactions
+  - type: textarea
+    attributes:
+      label: Proposal
+      description: |
+        Be descriptive but concise; include any timeline constraints.
+      placeholder: "We should be more specific about how our records are kept. <description of proposal>"
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Voting group
+      description: |
+        Select the decision-making group that must approve this proposal.
+        The opinions of others are always welcome, but only some are counted.
+      multiple: false
+      options:
+        - "@commonhaus-test/team-quorum-default"
+        - "@commonhaus-test/cf-council"
+        - "@commonhaus-test/cf-voting"
+        - "@commonhaus-test/members"
+      default: 1
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Consensus mechanism
+      description: |
+        Describe how you would like readers to interact with this proposal.
+      value: |
+      
+        Please use emoji reactions to indicate your support:
+        - **👍 (:+1:)** if it looks good to you
+        - **👀 (:eyes:)** if you're "ok" with it (it may not be your favorite)
+        - **👎 (:-1:)** if you think this needs discussion first
+
+        Ask questions or raise concerns in comments.
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Vote counting instructions
+      description: |
+        Use an HTML comment to describe how votes should be counted.
+        This can be edited after item is created to match the content above, if necessary.
+        Valid reaction values: +1, -1, confused, eyes, laugh, heart, hooray, rocket.
+      multiple: false
+      options:
+        - 'Marthas <!--vote::marthas approve="+1" ok="eyes" revise="-1" -->'
+        - 'Count all reactions <!--vote::manual -->'
+        - 'Count all comments <!--vote::manual comments -->'
+      default: 0
+
