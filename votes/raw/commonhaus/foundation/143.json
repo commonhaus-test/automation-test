@@ -1,0 +1,84 @@
+{
+  "voteType": "marthas",
+  "hasQuorum": true,
+  "group": "commonhaus/cf-egc",
+  "groupSize": 9,
+  "groupVotes": 9,
+  "countedVotes": 10,
+  "droppedVotes": 0,
+  "votingThreshold": "all",
+  "categories": {
+    "approve": {
+      "reactions": [
+        "👍"
+      ],
+      "team": [
+        {
+          "login": "aalmiray",
+          "url": "https://github.com/aalmiray",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/13969?u=6a649c057ec7a4fb3acbd57899cc03c5f7c46819&v=4"
+        },
+        {
+          "login": "cealsair",
+          "url": "https://github.com/cealsair",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/25405698?u=0d403bf8e726802918d95b99445bd15e5db9336e&v=4"
+        },
+        {
+          "login": "cowtowncoder",
+          "url": "https://github.com/cowtowncoder",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/55065?u=fdce6737a39cbda5176c8aa3bda56c2bf95190f0&v=4"
+        },
+        {
+          "login": "ebullient",
+          "url": "https://github.com/ebullient",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/808713?u=8c50c6169b230fc62777f6910f6669b753ae95a8&v=4"
+        },
+        {
+          "login": "evanchooly",
+          "url": "https://github.com/evanchooly",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/195021?v=4"
+        },
+        {
+          "login": "gavinking",
+          "url": "https://github.com/gavinking",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/579974?u=2053a5f4ed0ddd89b2f7de04d7ea64c386fc619d&v=4"
+        },
+        {
+          "login": "kenfinnigan",
+          "url": "https://github.com/kenfinnigan",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/441240?u=aea870e6cad6edfff45e4fc1603b4531c8f57b44&v=4"
+        },
+        {
+          "login": "maxandersen",
+          "url": "https://github.com/maxandersen",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/54129?v=4"
+        },
+        {
+          "login": "timtebeek",
+          "url": "https://github.com/timtebeek",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/1027334?v=4"
+        }
+      ],
+      "teamTotal": 9,
+      "total": 10
+    }
+  },
+  "duplicates": [],
+  "missingGroupActors": [],
+  "commentId": "IC_kwDOKRPTI857tHF2",
+  "github": "https://github.com/commonhaus/foundation/pull/143",
+  "itemId": "PR_kwDOKRPTI85tPBJY",
+  "title": "☑️ Undraft the bylaws: preface, purpose, amendments [due: 26 Apr]",
+  "number": 143,
+  "repoName": "commonhaus/foundation",
+  "date": "2024-04-24T16:58:09Z",
+  "updated": "2024-04-26T14:23:18Z",
+  "tags": [
+    "vote/done",
+    "vote/quorum",
+    "closed"
+  ],
+  "closed": true,
+  "closedAt": "2024-04-26T14:23:57Z",
+  "progress": "https://www.commonhaus.org/votes/vote-closed.svg"
+}

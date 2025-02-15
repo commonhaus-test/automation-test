@@ -1,0 +1,110 @@
+{
+  "voteType": "marthas",
+  "hasQuorum": true,
+  "isDone": true,
+  "group": "commonhaus/cf-egc",
+  "groupSize": 9,
+  "groupVotes": 9,
+  "countedVotes": 9,
+  "droppedVotes": 1,
+  "votingThreshold": "all",
+  "categories": {
+    "approve": {
+      "reactions": [
+        "👍"
+      ],
+      "team": [
+        {
+          "login": "aalmiray",
+          "url": "https://github.com/aalmiray",
+          "createdAt": "2024-05-20T08:52:09.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "cealsair",
+          "url": "https://github.com/cealsair",
+          "createdAt": "2024-05-19T22:42:10.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "cowtowncoder",
+          "url": "https://github.com/cowtowncoder",
+          "createdAt": "2024-05-20T18:24:22.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "ebullient",
+          "url": "https://github.com/ebullient",
+          "createdAt": "2024-05-17T23:42:16.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "evanchooly",
+          "url": "https://github.com/evanchooly",
+          "createdAt": "2024-05-20T14:21:23.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "gavinking",
+          "url": "https://github.com/gavinking",
+          "createdAt": "2024-05-18T13:59:08.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "kenfinnigan",
+          "url": "https://github.com/kenfinnigan",
+          "createdAt": "2024-05-19T00:46:51.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "maxandersen",
+          "url": "https://github.com/maxandersen",
+          "createdAt": "2024-05-20T06:47:14.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "timtebeek",
+          "url": "https://github.com/timtebeek",
+          "createdAt": "2024-05-20T08:40:27.000+00:00",
+          "reaction": "👍"
+        }
+      ],
+      "teamTotal": 9,
+      "total": 9
+    }
+  },
+  "duplicates": [
+    {
+      "login": "aalmiray",
+      "url": "https://github.com/aalmiray",
+      "createdAt": "2024-05-20T08:52:05.000+00:00",
+      "reaction": "👍"
+    }
+  ],
+  "missingGroupActors": [],
+  "manualCloseComments": {
+    "author": {
+      "login": "ebullient",
+      "url": "https://github.com/ebullient"
+    },
+    "createdAt": "2024-05-20T18:27:04.000+00:00",
+    "body": "Closing with consensus",
+    "url": "https://github.com/commonhaus/foundation/pull/159#issuecomment-2120979321"
+  },
+  "commentId": "IC_kwDOKRPTI85-RY2E",
+  "github": "https://github.com/commonhaus/foundation/pull/159",
+  "itemId": "PR_kwDOKRPTI85v17mD",
+  "title": "Undraft the bylaws: notice records [due May 23]",
+  "number": 159,
+  "repoName": "commonhaus/foundation",
+  "date": "2024-05-17T23:31:27Z",
+  "updated": "2024-05-20T18:27:08Z",
+  "tags": [
+    "vote/done",
+    "vote/quorum",
+    "closed"
+  ],
+  "closed": true,
+  "closedAt": "2024-05-20T14:25:32Z",
+  "progress": "https://www.commonhaus.org/votes/vote-closed.svg"
+}

@@ -1,0 +1,153 @@
+{
+  "title": "Additional role descriptions: advisors + officers",
+  "voteType": "marthas",
+  "hasQuorum": true,
+  "isDone": false,
+  "group": "commonhaus/cf-council",
+  "groupSize": 3,
+  "groupVotes": 3,
+  "countedVotes": 7,
+  "droppedVotes": 3,
+  "votingThreshold": "all",
+  "categories": {
+    "approve": {
+      "reactions": [
+        "👍"
+      ],
+      "team": [
+        {
+          "login": "cealsair",
+          "url": "https://github.com/cealsair",
+          "createdAt": "2024-10-24T15:29:02.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "ebullient",
+          "url": "https://github.com/ebullient",
+          "createdAt": "2024-10-15T21:58:18.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "kenfinnigan",
+          "url": "https://github.com/kenfinnigan",
+          "createdAt": "2024-10-15T23:06:25.000+00:00",
+          "reaction": "👍"
+        }
+      ],
+      "otherVotes": [
+        {
+          "login": "JooHyukKim",
+          "url": "https://github.com/JooHyukKim",
+          "createdAt": "2024-10-15T22:22:01.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "cowtowncoder",
+          "url": "https://github.com/cowtowncoder",
+          "createdAt": "2024-10-17T19:02:13.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "henri-tremblay",
+          "url": "https://github.com/henri-tremblay",
+          "createdAt": "2024-10-18T01:16:16.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "maxandersen",
+          "url": "https://github.com/maxandersen",
+          "createdAt": "2024-10-23T11:14:25.000+00:00",
+          "reaction": "👍"
+        }
+      ],
+      "teamTotal": 3,
+      "total": 7
+    },
+    "ok": {
+      "reactions": [],
+      "team": [],
+      "otherVotes": [],
+      "teamTotal": 0,
+      "total": 0
+    }
+  },
+  "duplicates": [
+    {
+      "login": "cealsair",
+      "url": "https://github.com/cealsair",
+      "createdAt": "2024-10-24T15:28:55.000+00:00",
+      "reaction": "👍"
+    },
+    {
+      "login": "kenfinnigan",
+      "url": "https://github.com/kenfinnigan",
+      "createdAt": "2024-10-15T19:40:31.000+00:00",
+      "reaction": "👀"
+    }
+  ],
+  "otherVotes": [
+    {
+      "login": "aalmiray",
+      "url": "https://github.com/aalmiray",
+      "createdAt": "2024-10-15T20:35:31.000+00:00",
+      "reaction": "❤️"
+    },
+    {
+      "login": "JooHyukKim",
+      "url": "https://github.com/JooHyukKim",
+      "createdAt": "2024-10-15T22:22:01.000+00:00",
+      "reaction": "👍"
+    },
+    {
+      "login": "cowtowncoder",
+      "url": "https://github.com/cowtowncoder",
+      "createdAt": "2024-10-17T19:02:13.000+00:00",
+      "reaction": "👍"
+    },
+    {
+      "login": "henri-tremblay",
+      "url": "https://github.com/henri-tremblay",
+      "createdAt": "2024-10-18T01:16:16.000+00:00",
+      "reaction": "👍"
+    },
+    {
+      "login": "maxandersen",
+      "url": "https://github.com/maxandersen",
+      "createdAt": "2024-10-23T11:14:25.000+00:00",
+      "reaction": "👍"
+    }
+  ],
+  "missingGroupActors": [],
+  "manualCloseComments": null,
+  "commentId": "IC_kwDOKRPTI86P7mCp",
+  "github": "https://github.com/commonhaus/foundation/pull/207",
+  "itemId": "PR_kwDOKRPTI85-t5T_",
+  "number": 207,
+  "repoName": "commonhaus/foundation",
+  "date": "2024-10-15T18:46:57Z",
+  "updated": "2024-10-24T15:30:44Z",
+  "tags": [
+    "vote/done",
+    "vote/quorum",
+    "closed"
+  ],
+  "closed": true,
+  "closedAt": "2024-10-24T15:30:42Z",
+  "ignored": {
+    "reactions": [
+      "❤️"
+    ],
+    "team": [],
+    "otherVotes": [
+      {
+        "login": "aalmiray",
+        "url": "https://github.com/aalmiray",
+        "createdAt": "2024-10-15T20:35:31.000+00:00",
+        "reaction": "❤️"
+      }
+    ],
+    "teamTotal": 0,
+    "total": 1
+  },
+  "progress": "https://www.commonhaus.org/votes/vote-closed.svg"
+}

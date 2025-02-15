@@ -1,0 +1,127 @@
+{
+  "voteType": "marthas",
+  "hasQuorum": true,
+  "isDone": true,
+  "group": "commonhaus/cf-egc",
+  "groupSize": 13,
+  "groupVotes": 13,
+  "countedVotes": 13,
+  "droppedVotes": 0,
+  "votingThreshold": "all",
+  "categories": {
+    "approve": {
+      "reactions": [
+        "👍"
+      ],
+      "team": [
+        {
+          "login": "aalmiray",
+          "url": "https://github.com/aalmiray",
+          "createdAt": "2024-07-26T05:16:04.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "cealsair",
+          "url": "https://github.com/cealsair",
+          "createdAt": "2024-07-23T14:32:41.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "cowtowncoder",
+          "url": "https://github.com/cowtowncoder",
+          "createdAt": "2024-07-24T01:21:08.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "dandreadis",
+          "url": "https://github.com/dandreadis",
+          "createdAt": "2024-08-21T20:19:52.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "ebullient",
+          "url": "https://github.com/ebullient",
+          "createdAt": "2024-07-31T19:06:53.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "evanchooly",
+          "url": "https://github.com/evanchooly",
+          "createdAt": "2024-08-27T22:06:23.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "gavinking",
+          "url": "https://github.com/gavinking",
+          "createdAt": "2024-08-22T16:11:08.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "henri-tremblay",
+          "url": "https://github.com/henri-tremblay",
+          "createdAt": "2024-08-01T07:34:13.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "kenfinnigan",
+          "url": "https://github.com/kenfinnigan",
+          "createdAt": "2024-08-08T15:40:41.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "marc0der",
+          "url": "https://github.com/marc0der",
+          "createdAt": "2024-07-31T20:47:46.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "maxandersen",
+          "url": "https://github.com/maxandersen",
+          "createdAt": "2024-08-08T21:04:04.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "timtebeek",
+          "url": "https://github.com/timtebeek",
+          "createdAt": "2024-07-30T22:58:30.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "velo",
+          "url": "https://github.com/velo",
+          "createdAt": "2024-08-21T10:01:48.000+00:00",
+          "reaction": "👍"
+        }
+      ],
+      "teamTotal": 13,
+      "total": 13
+    }
+  },
+  "duplicates": [],
+  "missingGroupActors": [],
+  "manualCloseComments": {
+    "author": {
+      "login": "ebullient",
+      "url": "https://github.com/ebullient"
+    },
+    "createdAt": "2024-08-28T12:00:34.000+00:00",
+    "body": "unanimous",
+    "url": "https://github.com/commonhaus/foundation/pull/180#issuecomment-2315133134"
+  },
+  "commentId": "IC_kwDOKRPTI86Gw3oY",
+  "github": "https://github.com/commonhaus/foundation/pull/180",
+  "itemId": "PR_kwDOKRPTI852OF9N",
+  "title": "📝 Undraft the bylaws: Advisory Board",
+  "number": 180,
+  "repoName": "commonhaus/foundation",
+  "date": "2024-07-31T16:54:28Z",
+  "updated": "2024-08-28T12:00:38Z",
+  "tags": [
+    "vote/done",
+    "vote/quorum",
+    "closed"
+  ],
+  "closed": true,
+  "closedAt": "2024-08-27T23:26:07Z",
+  "progress": "https://www.commonhaus.org/votes/vote-closed.svg"
+}

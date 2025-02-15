@@ -1,0 +1,102 @@
+{
+  "voteType": "marthas",
+  "hasQuorum": false,
+  "isDone": true,
+  "group": "commonhaus/cf-egc",
+  "groupSize": 9,
+  "groupVotes": 5,
+  "countedVotes": 5,
+  "droppedVotes": 1,
+  "votingThreshold": "all",
+  "categories": {
+    "approve": {
+      "reactions": [
+        "👍"
+      ],
+      "team": [
+        {
+          "login": "aalmiray",
+          "url": "https://github.com/aalmiray",
+          "createdAt": "2024-04-25T21:22:11.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "cowtowncoder",
+          "url": "https://github.com/cowtowncoder",
+          "createdAt": "2024-05-04T00:23:29.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "ebullient",
+          "url": "https://github.com/ebullient",
+          "createdAt": "2024-05-03T22:49:44.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "gavinking",
+          "url": "https://github.com/gavinking",
+          "createdAt": "2024-05-03T21:29:24.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "kenfinnigan",
+          "url": "https://github.com/kenfinnigan",
+          "createdAt": "2024-05-03T22:36:24.000+00:00",
+          "reaction": "👍"
+        }
+      ],
+      "teamTotal": 5,
+      "total": 5
+    }
+  },
+  "duplicates": [
+    {
+      "login": "gavinking",
+      "url": "https://github.com/gavinking",
+      "createdAt": "2024-05-03T21:29:14.000+00:00",
+      "reaction": "👍"
+    }
+  ],
+  "missingGroupActors": [
+    {
+      "login": "evanchooly",
+      "url": "https://github.com/evanchooly"
+    },
+    {
+      "login": "timtebeek",
+      "url": "https://github.com/timtebeek"
+    },
+    {
+      "login": "maxandersen",
+      "url": "https://github.com/maxandersen"
+    },
+    {
+      "login": "cealsair",
+      "url": "https://github.com/cealsair"
+    }
+  ],
+  "manualCloseComments": {
+    "author": {
+      "login": "ebullient",
+      "url": "https://github.com/ebullient"
+    },
+    "createdAt": "2024-05-05T18:54:01.000+00:00",
+    "body": "Majority have responded, we can fail forward. I want to include this step in a revised project application template.",
+    "url": "https://github.com/commonhaus/foundation/pull/147#issuecomment-2094911796"
+  },
+  "commentId": "IC_kwDOKRPTI858zHs7",
+  "github": "https://github.com/commonhaus/foundation/pull/147",
+  "itemId": "PR_kwDOKRPTI85txIgV",
+  "title": "Update trademark list",
+  "number": 147,
+  "repoName": "commonhaus/foundation",
+  "date": "2024-05-03T21:17:11Z",
+  "updated": "2024-05-20T18:38:29Z",
+  "tags": [
+    "vote/done",
+    "closed"
+  ],
+  "closed": true,
+  "closedAt": "2024-05-05T18:53:58Z",
+  "progress": "https://www.commonhaus.org/votes/vote-closed.svg"
+}

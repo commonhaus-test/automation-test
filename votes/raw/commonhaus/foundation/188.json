@@ -1,0 +1,132 @@
+{
+  "voteType": "marthas",
+  "hasQuorum": false,
+  "isDone": true,
+  "group": "commonhaus/cf-egc",
+  "groupSize": 13,
+  "groupVotes": 11,
+  "countedVotes": 12,
+  "droppedVotes": 0,
+  "votingThreshold": "all",
+  "categories": {
+    "approve": {
+      "reactions": [
+        "👍"
+      ],
+      "team": [
+        {
+          "login": "aalmiray",
+          "url": "https://github.com/aalmiray",
+          "createdAt": "2024-08-14T20:45:31.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "cealsair",
+          "url": "https://github.com/cealsair",
+          "createdAt": "2024-08-14T21:20:57.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "dandreadis",
+          "url": "https://github.com/dandreadis",
+          "createdAt": "2024-08-27T17:13:51.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "evanchooly",
+          "url": "https://github.com/evanchooly",
+          "createdAt": "2024-08-27T22:10:17.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "henri-tremblay",
+          "url": "https://github.com/henri-tremblay",
+          "createdAt": "2024-08-09T02:09:08.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "maxandersen",
+          "url": "https://github.com/maxandersen",
+          "createdAt": "2024-09-03T11:44:37.000+00:00",
+          "reaction": "👍"
+        }
+      ],
+      "teamTotal": 6,
+      "total": 6
+    },
+    "ok": {
+      "reactions": [
+        "👀"
+      ],
+      "team": [
+        {
+          "login": "cowtowncoder",
+          "url": "https://github.com/cowtowncoder",
+          "createdAt": "2024-08-15T15:30:36.000+00:00",
+          "reaction": "👀"
+        },
+        {
+          "login": "ebullient",
+          "url": "https://github.com/ebullient",
+          "createdAt": "2024-08-08T00:42:38.000+00:00",
+          "reaction": "👀"
+        },
+        {
+          "login": "gavinking",
+          "url": "https://github.com/gavinking",
+          "createdAt": "2024-08-15T21:48:53.000+00:00",
+          "reaction": "👀"
+        },
+        {
+          "login": "kenfinnigan",
+          "url": "https://github.com/kenfinnigan",
+          "createdAt": "2024-08-08T19:09:16.000+00:00",
+          "reaction": "👀"
+        },
+        {
+          "login": "marc0der",
+          "url": "https://github.com/marc0der",
+          "createdAt": "2024-08-25T15:46:18.000+00:00",
+          "reaction": "👀"
+        }
+      ],
+      "teamTotal": 5,
+      "total": 6
+    }
+  },
+  "duplicates": [],
+  "missingGroupActors": [
+    {
+      "login": "velo",
+      "url": "https://github.com/velo"
+    },
+    {
+      "login": "timtebeek",
+      "url": "https://github.com/timtebeek"
+    }
+  ],
+  "manualCloseComments": {
+    "author": {
+      "login": "ebullient",
+      "url": "https://github.com/ebullient"
+    },
+    "createdAt": "2024-09-10T01:29:22.000+00:00",
+    "body": "I have enough of a reset that I'm going to close this and re-open to reset the vote w/ a new timeline.withdrawn",
+    "url": "https://github.com/commonhaus/foundation/pull/188#issuecomment-2339432734"
+  },
+  "commentId": "IC_kwDOKRPTI86HlC-k",
+  "github": "https://github.com/commonhaus/foundation/pull/188",
+  "itemId": "PR_kwDOKRPTI853xdTG",
+  "title": "📄 Antitrust policy [due 23 Aug]",
+  "number": 188,
+  "repoName": "commonhaus/foundation",
+  "date": "2024-08-08T00:41:57Z",
+  "updated": "2024-09-10T01:29:26Z",
+  "tags": [
+    "vote/done",
+    "closed"
+  ],
+  "closed": true,
+  "closedAt": "2024-09-10T01:29:22Z",
+  "progress": "https://www.commonhaus.org/votes/vote-closed.svg"
+}

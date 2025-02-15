@@ -1,0 +1,115 @@
+{
+  "voteType": "marthas",
+  "hasQuorum": true,
+  "isDone": true,
+  "group": "commonhaus/cf-egc",
+  "groupSize": 11,
+  "groupVotes": 11,
+  "countedVotes": 11,
+  "droppedVotes": 0,
+  "votingThreshold": "all",
+  "categories": {
+    "approve": {
+      "reactions": [
+        "👍"
+      ],
+      "team": [
+        {
+          "login": "aalmiray",
+          "url": "https://github.com/aalmiray",
+          "createdAt": "2024-05-24T18:15:28.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "cealsair",
+          "url": "https://github.com/cealsair",
+          "createdAt": "2024-05-29T19:49:51.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "cowtowncoder",
+          "url": "https://github.com/cowtowncoder",
+          "createdAt": "2024-05-22T01:50:49.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "ebullient",
+          "url": "https://github.com/ebullient",
+          "createdAt": "2024-05-22T00:53:47.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "evanchooly",
+          "url": "https://github.com/evanchooly",
+          "createdAt": "2024-05-24T18:30:57.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "gavinking",
+          "url": "https://github.com/gavinking",
+          "createdAt": "2024-05-28T21:34:00.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "henri-tremblay",
+          "url": "https://github.com/henri-tremblay",
+          "createdAt": "2024-05-29T02:23:10.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "kenfinnigan",
+          "url": "https://github.com/kenfinnigan",
+          "createdAt": "2024-05-22T12:24:36.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "marc0der",
+          "url": "https://github.com/marc0der",
+          "createdAt": "2024-05-29T19:45:30.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "maxandersen",
+          "url": "https://github.com/maxandersen",
+          "createdAt": "2024-05-29T20:49:42.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "timtebeek",
+          "url": "https://github.com/timtebeek",
+          "createdAt": "2024-05-22T09:38:11.000+00:00",
+          "reaction": "👍"
+        }
+      ],
+      "teamTotal": 11,
+      "total": 11
+    }
+  },
+  "duplicates": [],
+  "missingGroupActors": [],
+  "manualCloseComments": {
+    "author": {
+      "login": "ebullient",
+      "url": "https://github.com/ebullient"
+    },
+    "createdAt": "2024-05-30T17:56:36.000+00:00",
+    "body": "Closed after good questions and unanimous consent",
+    "url": "https://github.com/commonhaus/foundation/pull/161#issuecomment-2140477778"
+  },
+  "commentId": "IC_kwDOKRPTI85-jnu9",
+  "github": "https://github.com/commonhaus/foundation/pull/161",
+  "itemId": "PR_kwDOKRPTI85wHguJ",
+  "title": "Undraft the bylaws: indemnification and dissolution [due May 27]",
+  "number": 161,
+  "repoName": "commonhaus/foundation",
+  "date": "2024-05-21T19:04:45Z",
+  "updated": "2024-05-30T17:56:41Z",
+  "tags": [
+    "vote/done",
+    "vote/quorum",
+    "closed"
+  ],
+  "closed": true,
+  "closedAt": "2024-05-30T17:58:20Z",
+  "progress": "https://www.commonhaus.org/votes/vote-closed.svg"
+}

@@ -1,0 +1,141 @@
+{
+  "voteType": "marthas",
+  "hasQuorum": false,
+  "isDone": true,
+  "group": "commonhaus/cf-egc",
+  "groupSize": 13,
+  "groupVotes": 12,
+  "countedVotes": 12,
+  "droppedVotes": 1,
+  "votingThreshold": "all",
+  "categories": {
+    "approve": {
+      "reactions": [
+        "👍"
+      ],
+      "team": [
+        {
+          "login": "cealsair",
+          "url": "https://github.com/cealsair",
+          "createdAt": "2024-08-14T21:17:20.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "cowtowncoder",
+          "url": "https://github.com/cowtowncoder",
+          "createdAt": "2024-08-15T16:48:06.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "dandreadis",
+          "url": "https://github.com/dandreadis",
+          "createdAt": "2024-08-27T17:15:39.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "evanchooly",
+          "url": "https://github.com/evanchooly",
+          "createdAt": "2024-08-27T22:09:26.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "kenfinnigan",
+          "url": "https://github.com/kenfinnigan",
+          "createdAt": "2024-08-05T22:58:14.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "marc0der",
+          "url": "https://github.com/marc0der",
+          "createdAt": "2024-08-25T15:43:16.000+00:00",
+          "reaction": "👍"
+        },
+        {
+          "login": "velo",
+          "url": "https://github.com/velo",
+          "createdAt": "2024-08-29T16:08:58.000+00:00",
+          "reaction": "👍"
+        }
+      ],
+      "teamTotal": 7,
+      "total": 7
+    },
+    "ok": {
+      "reactions": [
+        "👀"
+      ],
+      "team": [
+        {
+          "login": "aalmiray",
+          "url": "https://github.com/aalmiray",
+          "createdAt": "2024-08-16T12:52:19.000+00:00",
+          "reaction": "👀"
+        },
+        {
+          "login": "ebullient",
+          "url": "https://github.com/ebullient",
+          "createdAt": "2024-08-07T15:55:08.000+00:00",
+          "reaction": "👀"
+        },
+        {
+          "login": "gavinking",
+          "url": "https://github.com/gavinking",
+          "createdAt": "2024-08-16T11:04:35.000+00:00",
+          "reaction": "👀"
+        },
+        {
+          "login": "henri-tremblay",
+          "url": "https://github.com/henri-tremblay",
+          "createdAt": "2024-08-12T16:26:21.000+00:00",
+          "reaction": "👀"
+        },
+        {
+          "login": "maxandersen",
+          "url": "https://github.com/maxandersen",
+          "createdAt": "2024-08-29T14:33:41.000+00:00",
+          "reaction": "👀"
+        }
+      ],
+      "teamTotal": 5,
+      "total": 5
+    }
+  },
+  "duplicates": [
+    {
+      "login": "aalmiray",
+      "url": "https://github.com/aalmiray",
+      "createdAt": "2024-08-14T20:43:11.000+00:00",
+      "reaction": "👍"
+    }
+  ],
+  "missingGroupActors": [
+    {
+      "login": "timtebeek",
+      "url": "https://github.com/timtebeek"
+    }
+  ],
+  "manualCloseComments": {
+    "author": {
+      "login": "ebullient",
+      "url": "https://github.com/ebullient"
+    },
+    "createdAt": "2024-10-02T01:17:09.000+00:00",
+    "body": "- after discussion with @jkschneider, we can/should proceed on some items without waiting for @timtebeek\r\n- otherwise, no disagreement",
+    "url": "https://github.com/commonhaus/foundation/pull/186#issuecomment-2387451842"
+  },
+  "commentId": "IC_kwDOKRPTI86HQIzv",
+  "github": "https://github.com/commonhaus/foundation/pull/186",
+  "itemId": "PR_kwDOKRPTI853c5Bm",
+  "title": "🚸 Clarify language for required files (with references to examples)",
+  "number": 186,
+  "repoName": "commonhaus/foundation",
+  "date": "2024-08-05T14:01:13Z",
+  "updated": "2024-10-02T22:27:39Z",
+  "tags": [
+    "vote/done",
+    "closed"
+  ],
+  "closed": true,
+  "closedAt": "2024-10-02T01:15:51Z",
+  "progress": "https://www.commonhaus.org/votes/vote-closed.svg"
+}
