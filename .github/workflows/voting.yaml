@@ -1,33 +1,36 @@
 name: Push Voting activity to commonhaus.github.io
 
 on:
-  discussion_comment:
-  issue_comment:
   workflow_dispatch:
-    inputs:
-      comment_id:
-        type: string
-        required: true
 
-permissions: {}
+  discussion:
+  discussion_comment:
+
+  issues:
+  issue_comment:
+
+env:
+  GH_BOT_EMAIL: "41898282+github-actions[bot]@users.noreply.github.com"
+  GH_BOT_NAME: "GitHub Action"
 
 jobs:
-  update-vote:
-    runs-on: ubuntu-latest
-    permissions:
-      actions: read
-    steps:
-    - name: Bump voting results
-      env:
-        GH_TOKEN: ${{ secrets.ACTIONS_PUBLISH_PAT }}
-        COMMENT_ID: ${{ github.event.comment.node_id }}
-        INPUT: ${{ github.event.inputs.comment_id }}
-        SENDER: ${{ github.event.sender.login }}
-      run: |
-        if [[ -z "$COMMENT_ID" ]]; then
-          COMMENT_ID=$INPUT
-        elif [[ "$SENDER" != "commonhaus-test-bot[bot]" ]]; then
-          echo "Comment skipped. Not bot sender"
-          exit 0
-        fi
-        echo '{"comment_id": "${COMMENT_ID}"}' | gh workflow run -R commonhaus/commonhaus.github.io push-votes.yml --json
+  foundation_votes:
+    uses: commonhaus/vote-record-actions/.github/workflows/receive-votes.yml@main
+    with:
+      repositories: "commonhaus/foundation"
+      removeTags: "notice"
+      target_dir: "votes/raw"
+      markdown_dir: "votes/results"
+      index_file: "votes/README.md"
+    secrets: inherit
+
+  test_votes:
+    uses: commonhaus/vote-record-actions/.github/workflows/receive-votes.yml@main
+    with:
+      repositories: "commonhaus-test/automation-test"
+      vote_comment_bot: "commonhaus-test-bot[bot]"
+      removeTags: "notice"
+      target_dir: "votes/raw"
+      markdown_dir: "votes/results"
+      index_file: "votes/README.md"
+    secrets: inherit
