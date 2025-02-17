@@ -1,16 +1,14 @@
 # Open votes
 
-*Last updated: Sun, 16 Feb 2025 15:55:54 GMT[^1]*
-
 <table>
 <tr><th>Progress</th><th>Details</th></tr>
 <tr>
-<td rowspan="3" valign="top"><a href="./results/commonhaus/foundation/233.md"><img src="https://www.commonhaus.org/votes/progress-3.svg" alt="33% responses"></a></td>
+<td rowspan="3" valign="top"><a href="./results/commonhaus/foundation/233.md"><img src="https://www.commonhaus.org/votes/progress-6.svg" alt="66% responses"></a></td>
 <td>commonhaus/foundation #233</td>
 </tr><tr>
 <td><a href="https://github.com/commonhaus/foundation/issues/233">Draft Sponsorship</a></td>
 </tr><tr>
-<td>Missing: <a href="https://github.com/cealsair">cealsair</a>, <a href="https://github.com/ebullient">ebullient</a></td>
+<td>Missing: <a href="https://github.com/cealsair">cealsair</a></td>
 </tr>
 </table>
 
