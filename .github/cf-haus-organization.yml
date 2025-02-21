@@ -4,6 +4,7 @@ projects:
 teamMembership:
   dryRun: true
   source:
+    repository: commonhaus/foundation
     filePath: CONTACTS.yaml
   defaults:
     field: login
