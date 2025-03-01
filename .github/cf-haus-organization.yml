@@ -8,7 +8,7 @@ teamMembership:
     filePath: CONTACTS.yaml
   defaults:
     field: login
-    preserve_users:
+    ignore_users:
       - commonhaus-bot
   sync:
     cf-council:
