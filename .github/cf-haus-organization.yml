@@ -1,10 +1,11 @@
 projects:
   source:
     filePath: PROJECTS.yaml
+
 teamMembership:
   dryRun: true
   source:
-    repository: commonhaus/foundation
+    repository: commonhaus-test/automation-test
     filePath: CONTACTS.yaml
   defaults:
     field: login
@@ -18,7 +19,7 @@ teamMembership:
     egc:
       teams:
         - commonhaus-test/team-quorum-default
-  
+
 emailNotifications:
   errors:
     - test@commonhaus.org

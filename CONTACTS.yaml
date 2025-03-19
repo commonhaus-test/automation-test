@@ -1,17 +1,7 @@
 cf-council:
-  - TBD / ...
-advisory-board:
-  - TBD / ...
-cocp-panel:
-  - TBD / ...
-  - TBD / ...
-  - TBD / ...
-mailing-list:
-  coc-escalation: coc-escalation@commonhaus.org
-  coc-report: report@commonhaus.org
-  coi-report: report@commonhaus.org
-  council: cf-council@commonhaus.org
-  ip: legal@commonhaus.org
-  legal: legal@commonhaus.org
-  report: report@commonhaus.org
-  trademarks: legal@commonhaus.org
+  - login: sigrunixia
+  - login: aalmiray
+egc:
+  - login: ebullient
+  - login: kenfinnigan
+  - login: ejamison3
