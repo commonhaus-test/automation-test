@@ -3,7 +3,7 @@ projects:
     filePath: PROJECTS.yaml
 
 teamMembership:
-  dryRun: true
+  dryRun: false
   source:
     repository: commonhaus-test/automation-test
     filePath: CONTACTS.yaml
