@@ -3,22 +3,22 @@ projects:
     filePath: PROJECTS.yaml
 
 teamMembership:
-  dryRun: false
-  source:
-    repository: commonhaus-test/automation-test
-    filePath: CONTACTS.yaml
-  defaults:
-    field: login
-    ignore_users:
-      - commonhaus-bot
-  sync:
-    cf-council:
-      teams:
-        - commonhaus-test/cf-council
-        - commonhaus-test/admin
-    egc:
-      teams:
-        - commonhaus-test/team-quorum-default
+  - dryRun: false
+    source:
+      repository: commonhaus-test/automation-test
+      filePath: CONTACTS.yaml
+    defaults:
+      field: login
+      ignore_users:
+        - commonhaus-bot
+    sync:
+      cf-council:
+        teams:
+          - commonhaus-test/cf-council
+          - commonhaus-test/admin
+      egc:
+        teams:
+          - commonhaus-test/team-quorum-default
 
 emailNotifications:
   errors:
