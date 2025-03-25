@@ -11,7 +11,7 @@ teamMembership:
       field: login
       ignore_users:
         - commonhaus-bot
-    sync:
+    pushMembers:
       cf-council:
         teams:
           - commonhaus-test/cf-council
